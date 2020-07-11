@@ -1,0 +1,104 @@
+
+
+.bg-gradient-1 {
+    background: #fac02f !important;
+}
+.cleared{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.stopwatch{
+    position:absolute ;
+    left: 35%;
+    top: 40px;
+}
+
+#min,#sec,#msec{
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 ;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+
+button{
+    padding: 0.5rem 2rem !important;
+    border-radius: 30rem !important;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold !important;
+    outline: none !important;
+    margin: 0 auto;
+}
+.top{
+    margin-top: 90px !important;
+    
+}
+
+
+
+ .rounded {
+    border-radius: 1rem !important;
+
+}
+
+.name{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+    @media (max-width: 1050px) { 
+        #min,#sec,#msec{
+            max-width:  80px;
+            height: 80px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 10px;
+            font-weight: bolder;
+            font-size: 20px;
+            text-align: center !important;
+        
+        }
+        .stopwatch{
+            position:absolute ;
+            left: 0%;
+            top: 120px;
+            margin: 1px;
+        }
+        .cleared{
+            font-weight: bold;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 15px;
+        }
+        .hv{
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        button{
+            padding: 0.5rem 2rem !important;
+            border-radius: 30rem !important;
+            background: rgba(255, 255, 255, 0.3);
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold !important;
+            outline: none !important;
+            margin: 0 auto;
+            padding-left: 22px !important;
+        }
+    }

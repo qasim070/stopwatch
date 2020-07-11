@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JS Stopwatch|</title>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <div class="container">
+        <div class="stopwatch">
+        <div >
+            <div class="row mx-auto">
+                <div class="rounded bg-gradient-1 text-white shadow p-5 text-center mb-5">
+                    <div class="row">
+                        <div class="col" id="min">0</div>
+                        <div class="col" id="sec">0</div>
+                        <div class="col" id="msec">0</div>
+                    </div>
+                    <div class="row cleared">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">Min</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">Sec</div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-4">Mili Sec</div>
+                    </div>
+                    <div class="row">
+                        <button onclick="start()" id="startb" class="col-lg-4 col-md-4 col-sm-4 col-4">Start</button>
+                        <button onclick="stop()"class="col-lg-4 col-md-4 col-sm-4 col-4">Stop</button>
+                        <button onclick="reset()" class="col-lg-4 col-md-4 col-sm-4 col-4">Reset</button>
+                    </div>
+                    <h1 class="name">Dev: Muhammad Qasim </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+        <script src="app.js">
+        </script>
+    </body>
+</html>
