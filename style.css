@@ -1,4 +1,6 @@
-
+button{
+    outline: none;
+}
 
 .bg-gradient-1 {
     background: #fac02f !important;
